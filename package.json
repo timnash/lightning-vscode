@@ -1,0 +1,21 @@
+{
+    "name": "lightning",
+    "displayName": "Lightning",
+    "description": "Lightning Light Color Theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.45.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Lightning",
+                "uiTheme": "vs",
+                "path": "./themes/Lightning-color-theme.json"
+            }
+        ]
+    }
+}

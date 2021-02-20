@@ -1,0 +1,108 @@
+{
+	"tokenColors": [
+		{
+			"name": "Functions",
+			"scope": [
+				"variable.function",
+				"support.function",
+				"entity.name.function"
+			],
+			"settings": {
+				"foreground": "#bc4d15"
+			}
+		},
+		{
+			"name": "Variables",
+			"scope": "variable.other",
+			"settings": {
+				"foreground": "#0d78a5"
+			}
+		},
+		{
+			"name": "Entities",
+			"scope": [
+				"entity",
+				"punctuation.definition.tag",
+                "variable.parameter",
+                "variable.other.property",
+                "support.class"
+			],
+			"settings": {
+				"foreground": "#7737a4"
+			}
+		},
+		{
+			"name": "Constants",
+			"scope": [
+				"constant",
+				"support.constant",
+				"variable.other.global"
+			],
+			"settings": {
+				"foreground": "#b8008a"
+			}
+		},
+		{
+			"name": "Strings",
+			"scope": "string",
+			"settings": {
+				"foreground": "#008558"
+			}
+		},
+		{
+			"name": "Comments",
+			"scope": "comment",
+			"settings": {
+				"foreground": "#878787"
+			}
+		},
+		{
+			"name": "Keywords",
+			"scope": [
+				"keyword.operator.comparison",
+				"keyword.operator.assignment",
+				"keyword.operator.logical",
+				"keyword.operator.expression",
+				"keyword.operator.arithmetic",
+				"keyword.operator.relational",
+				"keyword.control",
+				"punctuation.definition.keyword",
+				"keyword.other.DML"
+			],
+			"settings": {
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Storage",
+			"scope": "storage",
+			"settings": {
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Section Punctuation",
+			"scope": [
+				"punctuation.section", 
+				"punctuation.definition.begin", 
+				"punctuation.definition.end", 
+				"punctuation.definition.parameters", 
+				"punctuation.definition.arguments", 
+				"punctuation.definition.array",
+				"punctuation.definition.block",
+				"meta.brace"
+			],
+			"settings": {
+				"fontStyle": "bold"
+			}
+		}
+	],
+	"colors": {
+		"editor.background": "#F7F7F7",
+		"editorCursor.foreground": "#000000",
+		"editor.foreground": "#545454",
+		"editorWhitespace.foreground": "#545454",
+		"editor.selectionBackground": "#E8E8E8"
+	},
+	"name": "Lightning"
+}
